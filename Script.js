@@ -8,27 +8,27 @@ function mostrarInfo(parte) {
     cpu: {
       titulo: "Procesador (CPU)",
       texto: "Se coloca alineando las marcas y asegurándolo con cuidado.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/5/59/Intel_CPU.jpg"
+      img: "https://t3.ftcdn.net/jpg/01/20/19/10/360_F_120191062_GiuDkiHSY1ObTgAofwJ5kp1s9uB6ldlr.jpg"
     },
     ram: {
       titulo: "Memoria RAM",
       texto: "Se inserta presionando hasta que encajen los seguros.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/0/0e/RAM_module.jpg"
+      img: "https://compubit.com.co/wp-content/uploads/2023/04/Porque-es-importante-la-memoria-RAM-2-3-1024x535.jpg"
     },
     disco: {
       titulo: "Disco Duro / SSD",
       texto: "Se instala y conecta con cable de datos y energía.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Solid-state-drive.jpg"
+      img: "https://ss628.liverpool.com.mx/xl/1108422323.jpg"
     },
     placa: {
       titulo: "Placa Madre",
       texto: "Es la base donde se conectan todos los componentes.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Motherboard.jpg"
+      img: "https://periodicotecno.com.mx/wp-content/uploads/2023/12/placa-madre.jpg"
     },
     fuente: {
       titulo: "Fuente de Poder",
       texto: "Distribuye la energía a todos los componentes.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Power_supply_unit.jpg"
+      img: "https://pcmartcolombia.com/wp-content/uploads/2020/09/PSU-004-1-min-2048x2048.jpg"
     }
   };
 
@@ -79,3 +79,4 @@ document.getElementById("formulario").addEventListener("submit", function(e){
   document.getElementById("mensajeFinal").innerText =
     "Registro completado. Excelente trabajo";
 });
+
